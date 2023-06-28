@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: aliceblue;
+    font-size: 15px;
+}
+
+section {
+    background-color: hsl(233, 47%, 7%);
+    height: 500px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+main {
+    display: flex;
+    width: 100%;
+    padding: 10%;
+    
+}
+span {
+    font-size: 23px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+strong {
+    color: hsl(277, 64%, 61%);
+}
+img {
+    filter: grayscale(100%) brightness(70%) sepia(50%) hue-rotate(-100deg) saturate(500%) contrast(0.8);
+    height: 300px;
+    width: 100%;
+}
+
+div {
+    width: 50%;
+    display: inline-block;
+   
+}
+.info {
+    padding: 50px 20px;
+    background-color: hsl(244, 38%, 16%);
+}
+p {
+    font-size: 12px;
+    padding-top: 30px;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+table {
+    
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 410px;
+    color: white;
+    border-collapse: separate;
+    border-spacing: 0 0px;
+    padding-bottom: 20px;
+}
+
+td {
+    width: 50px;
+    text-align: center;
+    padding: 6px 20px 3px;
+    font-size: 15px;
+}
+.light, p {
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.light {
+    font-size: 7px;
+}
+.attribution {
+    color: black;
+}
